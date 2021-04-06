@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Twitter color-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorDarkMode">#323c57</color>
+    <color name="colorAccent">#1c95e2</color>
+    <color name="colorPrimaryDark">#cacaca</color>
+    <!--<color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#0741AD</color>-->
+    <color name="colorLightAccent">#215BC8</color>
+    <color name="colorPrimaryText">#111111</color>
+    <color name="colorSecondaryText">#403D3D</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+    <color name="colorAccentText">#0741AD</color>
+    <color name="colorDanger">#AD0707</color>
+    <color name="colorYellow">#FF9800</color>
+
+
+</resources>

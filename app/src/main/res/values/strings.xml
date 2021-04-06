@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Zone</string>
+    <string name="intro_text">Welcome to Zone, connect and make friends</string>
+    <string name="phone_num_message">Please enter your mobile number to receive a verification code.Carrier rates may apply</string>
+    <string name="google_sign_in_message">Please click on the Sign in button to select your Gmail account</string>
+    <string name="mobile_verification">Mobile Verification</string>
+    <string name="phone">Phone</string>
+    <string name="otp_message">OTP has been sent to you on your mobile phone. Please enter it below</string>
+    <string name="verify">Verify</string>
+    <string name="continue_text">Continue</string>
+    <string name="enter_the_zone">Enter The Zone</string>
+    <string name="welcome_message">Welcome Back, \n sign in to continue</string>
+    <string name="verify_email_msg">Account created successfully, verify email to login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

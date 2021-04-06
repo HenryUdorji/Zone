@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="@dimen/_10sdp"
+    android:elevation="@dimen/_20sdp"
+    android:background="@drawable/dialog_bg">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/progressMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please wait..."
+        android:textAlignment="center"
+        android:fontFamily="@font/raleway_regular"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"/>
+</RelativeLayout>
