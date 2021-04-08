@@ -10,8 +10,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.henryudorji.zone.R
 import com.henryudorji.zone.databinding.FragmentHomeBinding
+import com.henryudorji.zone.utils.AppUtil
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var binding: FragmentHomeBinding
@@ -35,6 +36,16 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.bind(view)
 
 
+        initViews()
+    }
+
+    private fun initViews() {
+        binding.bottomNavFab.setOnClickListener {
+            AppUtil.showShortSnackbar(binding.root, "Fab clicked")
+        }
+
+        binding.bottomNav.background = null
+        binding.bottomNav.menu.getItem(2).isEnabled = false
     }
 
 }

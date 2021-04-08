@@ -117,7 +117,6 @@ class SignUpFragment: Fragment(R.layout.fragment_sign_up) {
         }
     }
 
-
     private fun createUserAccount(
         email: String,
         username: String,
